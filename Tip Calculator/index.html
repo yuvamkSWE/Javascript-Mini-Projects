@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h2 class="css-title">Tip Calculator</h2>
+    </header>
+
+    <main class="project">
+        <div class="css-form">
+            <label for="order-amount" class="css-label">Order Amount:</label>
+            <input type="number" placeholder="$" id="order-amount" class="js-order-amount">
+            <br><br>
+            <label for="tip-percentage" class="css-label">Tip Percentage:</label>
+            <input type="number" placeholder="%" id="tip-percentage" class="js-tip-percentage">
+            <br>
+            <h2 class="or">OR</h2>
+           
+            <div class="tip-btns">
+                <button class="tip-btn tip-btn1" data-tip="5">5%</button>
+                <button class="tip-btn tip-btn2" data-tip="10">10%</button>
+                <button class="tip-btn tip-btn3" data-tip="15">15%</button>
+                <button class="tip-btn tip-btn4" data-tip="20">20%</button>
+                <button class="tip-btn tip-btn5" data-tip="30">30%</button>
+            </div>
+            <br>
+            <button class="css-calc-btn js-calc">Calculate</button>
+            <br>
+            <div class="js-final-amount">
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
