@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left, .right {
+    flex: 1;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: flex 1s ease-in-out;
+}
+
+.left {
+    background-image: url('https://images7.alphacoders.com/961/thumb-1920-961878.jpg');
+}
+
+.right {
+    background-image: url('https://images.alphacoders.com/983/thumb-1920-983618.jpg');
+}
+
+.left.active {
+    flex: 1.5;
+}
+
+.right.active {
+    flex: 1.5;
+}
+
+.learn-more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50%;
+}
+
+button{
+    background-color: rgb(103, 172, 43);
+    color: aqua;
+    font-size: 28px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  
+}
+
