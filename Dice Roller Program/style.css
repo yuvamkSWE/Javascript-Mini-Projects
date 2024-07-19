@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    font-size: 58px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.diceInput {
+
+    font-size: 20px;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    width: 300px; /* Adjust this width as needed */
+    margin-right: 10px; /* Add some space between the input and button */
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.758);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.js-result{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+img{
+    width: 250px;
+}
+
+.js-diceSum{
+    font-size: 28px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
