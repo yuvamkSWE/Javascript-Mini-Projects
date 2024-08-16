@@ -1,0 +1,37 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.time{
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10%;
+}
+
+button{
+    background-color: #4CAF50;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 15px;
+    margin: 4px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    background-color: #3e8e41;
+    border: none;
+    padding: 15px;
+
+}
